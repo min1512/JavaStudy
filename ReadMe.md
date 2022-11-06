@@ -4,13 +4,13 @@
 
 - List
     - ArrayList (필수. 무조건 예제 코딩)
-        -ArrayListFirst ==> add()메소드 사용하기.
-        -ArrayListSecond ==> addAll()메소드 사용하기.
-        -ArrayListThird ==> remove()메소드 사용하기.
-        -ArrayListFourth ==> size()메소드 사용하기.
-        -ArrayListFifth ==> get()메소드 사용하기.
-        -ArrayListSixth ==> indexOf()메소드, lastIndexOf()메소드 사용하기.
-        -ArrayListSeventh ==> Iterator를 사용 해서, 출력 해보기.
+        - ArrayListFirst ==> add()메소드 사용하기.
+        - ArrayListSecond ==> addAll()메소드 사용하기.
+        - ArrayListThird ==> remove()메소드 사용하기.
+        - ArrayListFourth ==> size()메소드 사용하기.
+        - ArrayListFifth ==> get()메소드 사용하기.
+        - ArrayListSixth ==> indexOf()메소드, lastIndexOf()메소드 사용하기.
+        - ArrayListSeventh ==> Iterator를 사용 해서, 출력 해보기.
     - Vector
     - LinkedList
 - Set
