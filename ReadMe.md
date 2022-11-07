@@ -18,10 +18,17 @@
         - ArrayListExampleTwelfth ==> clone() 사용하기.
     - Vector 
         - ArrayList와 Vector의 차이점 : Vector는 동기화된 메소드로 구성되어 있기 때문에 멀티 스레드가 동시에 이 메소드들을 실행할 수 없고, 하나의 스레드가 실행을 완료해야만 다른 스레드들이 실행할 수 있습니다.
-        - VectorExampleFirst ==> add()메소드 사용하기.
-        - VectorExampleSecond ==> remove()메소드 사용하기.
-        - VectorExampleSecond ==> get()메소드 사용하기.
+        - VectorExampleFirst ==> add().
+        - VectorExampleSecond ==> remove().
+        - VectorExampleSecond ==> get().
     - LinkedList
+        - 각 노드가 데이터와 포인터를 가지고, 한 줄로 연결 되어 있는 방식의 자료 구조입니다.
+        - ArrayList에 비해서, 데이터의 추가나 삭제가 용이하나, 인덱스가 없기에, 특정 요소에 접근하기 위해서는 순차 탐색이 필요로 하여, 탐색 속도가 떨어진다는 단점이 있다.
+        - 결론 : 탐색 또는 정렬을 자주 하는 경우에는 배열을 사용 하고, 데이터듸 추가/삭제가 많은 경우 연결 리스트를 사용하는게 좋다.
+        - addFirst(), addLast(), add(), offer().
+        - removeFirst(), removeLast(), remove(), clear()
+        - size(), Iterator를 통한, 순회.
+        - contain(), indexOf()
 - Set
     - HashSet (필수. 무조건 예제 코딩)
     - TreeSet
