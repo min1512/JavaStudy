@@ -29,6 +29,9 @@
         - removeFirst(), removeLast(), remove(), clear()
         - size(), Iterator를 통한, 순회.
         - contain(), indexOf()
+        - poll(), pollFirst(), pop(), pollLast()
+        - removeFirst(), removeLast()
+        - removeFirstOccurrence(), removeLastOccurrence()
 - Set
     - HashSet (필수. 무조건 예제 코딩)
     - TreeSet
