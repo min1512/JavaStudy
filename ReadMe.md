@@ -34,6 +34,9 @@
         - removeFirstOccurrence(), removeLastOccurrence()
 - Set
     - HashSet (필수. 무조건 예제 코딩)
+        - 순서대로 입력 되지 않고, 일정하게 유지 되지 않는게 특징, null 요소도 허용 됨, 중복을 허용 하지 않음.
+        - add(), remove(), clear(), size(), Iterator 출력.
+        - contains()
     - TreeSet
 
 자료구조 (맵, 가능한 코딩)
