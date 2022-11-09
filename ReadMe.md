@@ -47,6 +47,10 @@
 
 - Map
     - Hashtable
+      - Key, Value 형태를 가진다.
+      - HashMap은 동기화 되어 있으나, HashTable은 동기화 되어 있지 않다.
+      - HashMap은 key,value에 null을 허용 하지만, HashTable에는 허용 하지 않는다.
+      - put(), size(), get(), replace()
     - HashMap (필수. 무조건 예제 코딩)
     - TreeMap
 
