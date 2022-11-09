@@ -42,7 +42,8 @@
         - 중복 없는 데이터 집합을 다룸, HashSet에 비해 상대적으로 데이터 처리 속도가 느리지만 다른 컬렉션에 비해 빠름, TreeMap Class와 유사한 작동 원리
         - TreeSet은 내부에 데이터 저장을 위한, RB-Tree(Red/Black Tree) 자료구조를 가지고 있다. RB 트리는 이진탐색 트리의 일종으로 저장된 값들이 
           트리 전체에 고루 저장되도록 하여, 비정상적으로 트리의 높이가 높아지는 현상이 없게 만든 균형 트리이다.
-        
+        - add(), remove(), clear(), size(), first(), last(), higher(), lower()
+        -  Iterator 출력. , contains()
 
 - Map
     - Hashtable
