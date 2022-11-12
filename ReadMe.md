@@ -55,9 +55,44 @@
       - put(), get(), remove()
       - 출력, entrySet(), KeySet()
     - TreeMap
+      - put(), get(), remove()
+      - 출력, entrySet(), KeySet()
 
-스트림을 활용한 데이터 정제 (무조건 코딩)
-
-- map
-- reduce
-- filter
+- 스트림을 활용한 데이터 정제
+  - boxed()
+    - Int, Long, Double 배열로 Stream을 만들었을 경우
+    - 각종 메소드를 사용하기 위해 사용
+  - count() 
+    - 배열, 컬렉션 크기 확인
+  - sorted()
+    - 정렬
+  - sorted(Comparator.reverseOrder())
+    - 역정렬
+  - findFirst()
+    - 스트림의 처음 값 가져오기
+  - skip(배열크기 - 1).findFirst()
+    - 스트림의 마지막 값 가져오기
+  - skip(값)
+    - 값의 인덱스까지 생략하고 나머지를 가져옴
+  - limit(값)
+    - 값의 인덱스까지 가져옴
+  - distinct()
+    - 중복 생략
+  - max(데이터타입::compare)
+    - 최대값
+  - min(데이터타입::compare)
+    - 최소값
+  - average()
+    - 평균
+  - sum()
+    - 합계
+  - map((파라미터) -> 코드)
+    - 각 인덱스의 값을 파라미터로 넘기고 코드를 수행한다
+    - 주로 값을 바꿔주거나 더해주거나 할때 사용하게 된다
+  - forEach((파라미터) -> {코드})
+    - 각 인덱스의 값을 파라미터로 넘기고 코드를 수행
+    - map과 forEach는 흡사하지만, map은 값만 바꿔주는 정도고, forEach는 if else나 메소드 등을 사용한느 것이 중점이 되겠다.
+  - reduce(값, 데이터타입::sum)
+    - 스트림의 값을 모두 하나로 합칠때 사용하는데, 데이터타입과 sum으로 하나로 합친 뒤, 마지막에 값을 더해서 가져오게 된다
+  - filter(파라미터) -> {코드})
+    - 코드에 맞는 값만 가져온다
